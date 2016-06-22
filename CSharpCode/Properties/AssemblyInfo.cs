@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MATLABfromCSharp")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("PI-to-MATLAB-Utility")]
+[assembly: AssemblyDescription("Utility that helps creating Matlab variable that contains PI System Data")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("OSI")]
-[assembly: AssemblyProduct("MATLABfromCSharp")]
-[assembly: AssemblyCopyright("Copyright © OSI 2008")]
+[assembly: AssemblyCompany("OSIsoft")]
+[assembly: AssemblyProduct("")]
+[assembly: AssemblyCopyright("Copyright © OSI 2016 -  Licensed under Apache License 2.0")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
