@@ -72,20 +72,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
-    <Reference Include="OSIsoft.AF.UI, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6238be57836698e6, processorArchitecture=MSIL" />
-    <Reference Include="OSIsoft.AFSDK, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6238be57836698e6, processorArchitecture=MSIL" />
-    <Reference Include="OSIsoft.AXPISDKCTL, Version=1.3.0.0, Culture=neutral, PublicKeyToken=c3309f0734ba2805" />
-    <Reference Include="OSIsoft.PISDK, Version=1.3.0.0, Culture=neutral, PublicKeyToken=c3309f0734ba2805, processorArchitecture=x86" />
-    <Reference Include="OSIsoft.PISDK.Controls, Version=1.4.0.1, Culture=neutral, PublicKeyToken=c3309f0734ba2805, processorArchitecture=MSIL" />
-    <Reference Include="OSIsoft.PISDK.Controls.PISDKCtrlDlg, Version=1.3.0.0, Culture=neutral, PublicKeyToken=c3309f0734ba2805, processorArchitecture=x86" />
-    <Reference Include="OSIsoft.PISDKCommon, Version=1.3.0.0, Culture=neutral, PublicKeyToken=c3309f0734ba2805, processorArchitecture=x86" />
-    <Reference Include="OSIsoft.PISDKDlg, Version=1.3.0.0, Culture=neutral, PublicKeyToken=c3309f0734ba2805">
-      <EmbedInteropTypes>True</EmbedInteropTypes>
+    <Reference Include="OSIsoft.AF.UI, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6238be57836698e6, processorArchitecture=MSIL">
+      <Private>False</Private>
     </Reference>
-    <Reference Include="OSIsoft.PISDKRegistry, Version=1.4.0.0, Culture=neutral, PublicKeyToken=c3309f0734ba2805">
-      <EmbedInteropTypes>True</EmbedInteropTypes>
+    <Reference Include="OSIsoft.AFSDK, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6238be57836698e6, processorArchitecture=MSIL">
+      <Private>False</Private>
     </Reference>
-    <Reference Include="OSIsoft.PITimeServer, Version=1.3.0.0, Culture=neutral, PublicKeyToken=c3309f0734ba2805, processorArchitecture=x86" />
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -180,9 +172,15 @@
       <Lcid>0</Lcid>
       <WrapperTool>tlbimp</WrapperTool>
       <Isolated>False</Isolated>
+      <Private>False</Private>
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
@@ -191,10 +189,21 @@
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1</ProductName>
-      <Install>true</Install>
+      <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <PublishFile Include="Interop.MLApp">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\favicon.ico" />
   </ItemGroup>

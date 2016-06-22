@@ -43,6 +43,21 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="ADODB" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="OSIsoft.AF.UI" version="4.0.0.0" publicKeyToken="6238BE57836698E6" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="OSIsoft.AFSDK" version="4.0.0.0" publicKeyToken="6238BE57836698E6" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
       <assemblyIdentity name="OSIsoft.PI.Configuration" version="1.5.4.0" publicKeyToken="C3309F0734BA2805" language="neutral" processorArchitecture="msil" />
     </dependentAssembly>
   </dependency>
@@ -67,48 +82,6 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="OSIsoft.PISDK" version="1.3.0.0" publicKeyToken="C3309F0734BA2805" language="neutral" processorArchitecture="x86" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="OSIsoft.PISDK" version="1.4.0.0" publicKeyToken="C3309F0734BA2805" language="neutral" processorArchitecture="x86" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="OSIsoft.PISDKCommon" version="1.3.0.0" publicKeyToken="C3309F0734BA2805" language="neutral" processorArchitecture="x86" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="OSIsoft.PISDKCommon" version="1.4.0.0" publicKeyToken="C3309F0734BA2805" language="neutral" processorArchitecture="amd64" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="OSIsoft.PITimeServer" version="1.3.0.0" publicKeyToken="C3309F0734BA2805" language="neutral" processorArchitecture="x86" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="OSIsoft.PITimeServer" version="1.4.0.0" publicKeyToken="C3309F0734BA2805" language="neutral" processorArchitecture="amd64" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ADODB.dll" size="110592">
-      <assemblyIdentity name="ADODB" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ikTl80KOQk2KcCqa9Bv+wxqhhwQYFAKyMN5Gm29Qwp4=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.MLApp.dll" size="8704">
       <assemblyIdentity name="Interop.MLApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -116,79 +89,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>qy3w1HBw2QxVqllzyjlc8vLCp4VAC8uCBCZ27N2QpGU=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OSIsoft.AF.UI.dll" size="8148176">
-      <assemblyIdentity name="OSIsoft.AF.UI" version="4.0.0.0" publicKeyToken="6238BE57836698E6" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>hgBHqQ4Y2k1nuYtOQxS1u3VmZEowhjyn49DIdVnfeJ4=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OSIsoft.AFSDK.dll" size="4186832">
-      <assemblyIdentity name="OSIsoft.AFSDK" version="4.0.0.0" publicKeyToken="6238BE57836698E6" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>V1DuFHv0w3cqmXa7jZMAQ6Pzgt6sOjDhfjoOuYjyog4=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OSIsoft.AXPISDKCTL.dll" size="14992">
-      <assemblyIdentity name="OSIsoft.AXPISDKCTL" version="1.3.0.0" publicKeyToken="C3309F0734BA2805" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>HnwVN8AUuVoAKu70hF30QVd9RU9tCUo2KB7iuSH1v5w=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OSIsoft.PISDK.Controls.dll" size="1250960">
-      <assemblyIdentity name="OSIsoft.PISDK.Controls" version="1.4.0.1" publicKeyToken="C3309F0734BA2805" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>2a9UEFyYV7tykix4FQ75jsaXsu++Dx4kFnNMRRM9NsI=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OSIsoft.PISDK.Controls.PISDKCtrlDlg.dll" size="42640">
-      <assemblyIdentity name="OSIsoft.PISDK.Controls.PISDKCtrlDlg" version="1.3.0.0" publicKeyToken="C3309F0734BA2805" language="neutral" processorArchitecture="x86" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>knJ+9uT9DryfFoAB9dnQr7tofEudeAk5mbF0VMdnYi8=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OSIsoft.PISDKCtl.dll" size="18064">
-      <assemblyIdentity name="OSIsoft.PISDKCtl" version="1.3.0.0" publicKeyToken="C3309F0734BA2805" language="neutral" processorArchitecture="x86" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>VUQgRaAq7M1DL2DjVg+n/94w6dx+Hnqx5x/U1c6ak8A=</dsig:DigestValue>
+        <dsig:DigestValue>xksPK86aoSVKctJ4L6G4D/aPROC5g0Vh9FuFSh7Gy8E=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -200,7 +101,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>6EDcu5VZgqN316jsQQQI6Ir4/l5Dxztcbbx4tKcch5s=</dsig:DigestValue>
+        <dsig:DigestValue>Ut1HpvkVih5InamCu39rIsMGl/6oOtB2sGOhi4eDQbc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

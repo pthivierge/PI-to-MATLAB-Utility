@@ -4,16 +4,22 @@ The PI to MATLAB utility is a small utility that was developed by an OSIsoft Aca
 
 This repository contains the source files to build this utility as well as the Windows Installer to install it on your computer.
 
-##Getting Started
-You must have the following applications installed before you can use the PI-to-MATLAB utility:
+**The content in this repository is explained in the [White Paper - Using the PI-to-MATLAB Utility][2] availabe on PI Square**. Make sure to have a look into it!
+
+##Installation and Removal
+Run setup.exe from the Setup folder.  You should then see an entry PI-to-MATLAB Utility in your start menu.
+
+To uninstall, go to add or remove programs in windows, and uninstall PI-to-MATLAB Utility.
+
+
+##Prerequisites
+
+You must have the following applications installed before you can run or compile the PI-to-MATLAB utility:
 + MATLAB (the version we tested are R20014b:8.4.0.150421 and 2016a:9.0.0.341360) 
 + PI AF Software Development Kit (PI AF SDK) <sup>1</sup>
 
-
-For more detail, please also refer to the "Using PI-to-MATLAB Program" white paper, available at the root of this repository.
-
  
-<sup>1</sup> PI AF SDK must be installed on the machine where the PI-to-MATLAB utility is used. The easiest way to obtain PI AF SDK is to download and install the PI Asset Framework Client. You may obtain the PI Asset Framework Client installation kit from our Tech Support webpage.   
+<sup>1</sup> PI AF SDK must be installed on the machine where the PI-to-MATLAB utility is used. The easiest way to obtain PI AF SDK is to download and install the **PI Asset Framework (PI AF) Client XXX Install Kit (with PSE and AF SDK)** . You may obtain the PI Asset Framework Client installation kit from our Tech Support website at https://techsupport.osisoft.com/Products/PI-Server/PI-AF/   
 
 
 ##How to create the installation package
@@ -51,3 +57,4 @@ Please see the file named [LICENSE.md](LICENSE.md).
 
 
 [1]:https://github.com/osisoft/contributing
+[2]:https://pisquare.osisoft.com/docs/DOC-2292
