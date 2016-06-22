@@ -5,9 +5,9 @@ The PI to Matlab utility is a small utility that automatically runs a MATLAB Ins
 This repository contains the source files to build this utility as well as the Windows Installer to install it on your computer.
 
 ##Getting Started
-You must have the following installed to use the PI-to-MATLAB utility:
+You must have the following applications installed before you can use the PI-to-MATLAB utility:
 + MATLAB (the version we tested are R20014b:8.4.0.150421 and 2016a:9.0.0.341360) 
-+	PI AF Software Development Kit (PI AF SDK) <sup>1</sup>
++ PI AF Software Development Kit (PI AF SDK) <sup>1</sup>
 
 
 For more detail, please also refer to the "Using PI-to-MATLAB Program" white paper, available at the root of this repository.
@@ -24,6 +24,10 @@ If you want to uninstall the application, use the add-remove program Windows fea
 
 ##Contributing
 
+We do welcome everyone to share their contributions and be certain all contributions will be considered. Please make sure that you read our general [contribution guidelines][1] and agree with it; it also contains a lot if useful information. Please keep in mind that integrating your contribution may require some adjustments in your code, if this is the case this will be discussed in the Pull Request you open.
+
+We suggest you start by opening an issue so a discussion can start before you start working on code.
+
 
 
 ##Licensing
@@ -33,7 +37,7 @@ Copyright 2016 OSIsoft, LLC.
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+   http://www.apache.org/licenses/LICENSE-2.0
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
@@ -42,3 +46,8 @@ Copyright 2016 OSIsoft, LLC.
    limitations under the License.
    
 Please see the file named [LICENSE.md](LICENSE.md).
+
+
+
+
+[1]:https://github.com/osisoft/contributing
