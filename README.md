@@ -1,9 +1,12 @@
 # PI-to-MATLAB-Utility
-Supporting file for PI-to-MATLAB Utility
+
+The PI to Matlab utility is a small utility that automatically runs a MATLAB Instance and allows the user to inject PI System Data into this MatLab Instance, as variable(s). Currently it connects to the default AF Server and the first AF database.
+
+This repository contains the source files to build this utility as well as the Windows Installer to install it on your computer.
 
 ##Getting Started
 You must have the following installed to use the PI-to-MATLAB utility:
-+ MATLAB (the version we tested is R20014b, or 8.4.0.150421) 
++ MATLAB (the version we tested are R20014b:8.4.0.150421 and 2016a:9.0.0.341360) 
 +	PI AF Software Development Kit (PI AF SDK) <sup>1</sup>
 
 
@@ -12,6 +15,14 @@ For more detail, please also refer to the "Using PI-to-MATLAB Program" white pap
  
 <sup>1</sup> PI AF SDK must be installed on the machine where the PI-to-MATLAB utility is used. The easiest way to obtain PI AF SDK is to download and install the PI Asset Framework Client. You may obtain the PI Asset Framework Client installation kit from our Tech Support webpage.   
 
+
+##How to create the installation package
+In visual studio, double click on the project properties. Then Select the Publish menu.  Click on Publish Now.
+This will create a new click-once application called setup.exe under the Setup folder of the repository.
+
+If you want to uninstall the application, use the add-remove program Windows feature.
+
+##Contributing
 
 
 
