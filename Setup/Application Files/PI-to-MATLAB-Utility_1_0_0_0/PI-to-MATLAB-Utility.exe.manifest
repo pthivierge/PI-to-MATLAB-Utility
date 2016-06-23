@@ -52,26 +52,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.MLApp.dll" size="8704">
-      <assemblyIdentity name="Interop.MLApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DsRp5Fsy0QE6vfaS9YnXs3dw+HChebO8LG5Gq0VK5q4=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PI-to-MATLAB-Utility.exe" size="82944">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PI-to-MATLAB-Utility.exe" size="84480">
       <assemblyIdentity name="PI-to-MATLAB-Utility" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>WO9HK5yvKTqQuvZUhxBFx9s2cpDXz49E9PxMqycQnsU=</dsig:DigestValue>
+        <dsig:DigestValue>Wuq0woEUMdH1hwMwS6WRvRBj5tak5kvbfkVcaQXHwVs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
