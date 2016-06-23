@@ -43,42 +43,12 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="ADODB" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
       <assemblyIdentity name="OSIsoft.AF.UI" version="4.0.0.0" publicKeyToken="6238BE57836698E6" language="neutral" processorArchitecture="msil" />
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
       <assemblyIdentity name="OSIsoft.AFSDK" version="4.0.0.0" publicKeyToken="6238BE57836698E6" language="neutral" processorArchitecture="msil" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="OSIsoft.PI.Configuration" version="1.5.4.0" publicKeyToken="C3309F0734BA2805" language="neutral" processorArchitecture="msil" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="OSIsoft.PI.Configuration.PISDKRegDirectoryProvider" version="1.5.4.0" publicKeyToken="C3309F0734BA2805" language="neutral" processorArchitecture="msil" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="OSIsoft.PI.Net" version="1.5.4.0" publicKeyToken="C3309F0734BA2805" language="neutral" processorArchitecture="msil" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="OSIsoft.PI.Net.Core" version="1.5.4.0" publicKeyToken="C3309F0734BA2805" language="neutral" processorArchitecture="amd64" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="OSIsoft.PI.Resources" version="1.5.4.0" publicKeyToken="C3309F0734BA2805" language="neutral" processorArchitecture="msil" />
     </dependentAssembly>
   </dependency>
   <dependency>
@@ -101,7 +71,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>0vt2LVZV4N4qLd7r+PUak/Ngp7gy64YpETcRmc4YW0U=</dsig:DigestValue>
+        <dsig:DigestValue>WO9HK5yvKTqQuvZUhxBFx9s2cpDXz49E9PxMqycQnsU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
